@@ -64,37 +64,3 @@ img {
 	left: 560px;
 	top: 170px;
 }
-/*.ryu {
-	float: left;
-}
-
-.ryu-still {
-	position:absolute;
-	z-index:-1;
-}
-
-.ryu-ready {
-	position:absolute;
-	top: 0em;
-	z-index:1;
-}
-
-.hadouken {
-	position:absolute;	
-	top: 11em;
-	left: 27em; 
-	z-index:3;
-}
-
-.ryu-throwing {
-	position:absolute;	
-	top: 0em;
-	left: 0em; 
-	z-index:2;
-}
-
-.ryu-cool {
-	position:absolute;	
-	top: 0em;
-	z-index:5;
-}*/
