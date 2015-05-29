@@ -10,7 +10,7 @@ img {
 	background-color: white;
 	margin-top: 6.5rem;
 	padding-left: 5.79rem;
-	width: 100%;
+	width: 1200px;
 	height: 31em;
 	position: relative;	
 	z-index: 1;
@@ -61,6 +61,6 @@ img {
 	float: left;
 	position: absolute;
 	z-index: 10;
-	left: 560px;
+	left: 520px;
 	top: 170px;
 }
