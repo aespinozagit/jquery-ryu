@@ -2,10 +2,6 @@ body {
 	background-color: black;
 }
 
-img {
-	border: solid 2px blue;
-}
-
 .main {
 	background-color: white;
 	margin-top: 110px;
@@ -13,7 +9,7 @@ img {
 	height: 500px;
 	position: relative;	
 	z-index: 1;
-	border: 5px solid red;
+	/*border: 5px solid red;*/
 }
 
  /*Image styles*/
