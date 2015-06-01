@@ -8,55 +8,32 @@ img {
 
 .main {
 	background-color: white;
-	margin-top: 6.5rem;
-	padding-left: 5.79rem;
-	width: 100%;
-	height: 31em;
+	margin-top: 110px;
+	padding-left: 100px;
+	height: 500px;
 	position: relative;	
 	z-index: 1;
 	border: 5px solid red;
 }
 
+ /*Image styles*/
+.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool,
+ .street-fighter-logo {
+  background-repeat: no-repeat;
+}
+
 .ryu, .hadouken {
 	float: left;
 }
-
-.ryu {
-    width: 659px;
-    height: 494px;
-    
-}
-
+ 
 .ryu, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
 	width: 659px;
 	height: 494px;
 }
 
-.ryu-ready, .ryu-throwing, .ryu-cool {
+.ryu-ready, .ryu-throwing, .ryu-cool, .instructions {
   	display: none;
 } 
-
-.ryu-still {
-  	background-image: url('../images/ryu-standing-still.png');
-
-}
-
-.ryu-ready {
-  	background-image: url("../images/ryu-ready-position.gif");
- }
-
-
-.ryu-throwing {
-  	background-image: url('../images/ryu-throwing-hadouken.png');
-}
-
-.ryu-cool {
-	background-image: url('../images/ryu-cool.gif');
-}
-
-.hadouken, .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
-  background-repeat: no-repeat;
-}
 
 .hadouken {
 	background-image: url('../images/hadouken.gif');
@@ -69,3 +46,63 @@ img {
 	left: 520px;
 	top: 170px;
 }
+
+/* Ryu Images*/
+.ryu-still {
+  	background-image: url('../images/ryu-standing-still.png');
+
+}
+
+.ryu-ready {
+  	background-image: url("../images/ryu-ready-position.gif");
+ }
+
+.ryu-throwing {
+  	background-image: url('../images/ryu-throwing-hadouken.png');
+}
+
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif');
+}
+
+/*Intorduction Content*/
+.intro {
+	position: absolute;	
+	left: 650px;
+	height: 425px;
+	width: 600px;
+	padding-top: 4em;
+}
+
+.street-fighter-logo {
+	background-image: url('../images/Street_Fighter_Logo.png');
+	width: 690px;
+	height: 425px;
+	/*border: 2px blue solid;*/
+}
+
+.jquery-logo {
+	background-image: url('../images/jquery-logo.jpg');
+	display: none;
+	width: 500px;
+	height: 230px;
+	margin-top: 50px auto;
+}
+
+.brought-to-you {
+	color: red;
+	display: none;
+	padding-top: 3em;
+	text-align: center;
+}
+
+.instructions, .brought-to-you {	
+	position: absolute;
+	font-family: 'Bangers', cursive;
+	width: 9em;
+    font-size: 3em;
+}
+
+
+
+
